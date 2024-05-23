@@ -1,0 +1,43 @@
+<mxfile host="Electron" modified="2024-04-27T01:39:33.548Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="rT3oi4IoOmTfUsCkR5Sj" version="24.2.5" type="device">
+  <diagram name="Página-1" id="pl-YS2sJJP-DlxOlX0g9">
+    <mxGraphModel dx="1434" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="950J8SFxGALwr3sH7Dd8-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="950J8SFxGALwr3sH7Dd8-3" target="950J8SFxGALwr3sH7Dd8-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="950J8SFxGALwr3sH7Dd8-3" value="Inicio Casa de cambio" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="340" y="10" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="950J8SFxGALwr3sH7Dd8-4" value="Fin Casa de cambio" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.start_1;whiteSpace=wrap;" vertex="1" parent="1">
+          <mxGeometry x="340" y="630" width="140" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="950J8SFxGALwr3sH7Dd8-5" value="monto" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="120" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="950J8SFxGALwr3sH7Dd8-6" value="monto_dolares = monto / dolar" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="274" y="340" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="950J8SFxGALwr3sH7Dd8-7" value="dolar" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="220" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="950J8SFxGALwr3sH7Dd8-8" value="monto_dolares" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="460" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="950J8SFxGALwr3sH7Dd8-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.583;entryY=-0.033;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="950J8SFxGALwr3sH7Dd8-5" target="950J8SFxGALwr3sH7Dd8-7">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="950J8SFxGALwr3sH7Dd8-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.45;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="950J8SFxGALwr3sH7Dd8-7" target="950J8SFxGALwr3sH7Dd8-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="950J8SFxGALwr3sH7Dd8-13" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.54;entryY=0.012;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="950J8SFxGALwr3sH7Dd8-6" target="950J8SFxGALwr3sH7Dd8-8">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="950J8SFxGALwr3sH7Dd8-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.496;entryY=-0.03;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="950J8SFxGALwr3sH7Dd8-8" target="950J8SFxGALwr3sH7Dd8-4">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

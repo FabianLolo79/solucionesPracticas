@@ -1,0 +1,37 @@
+<mxfile host="Electron" modified="2024-04-27T01:21:10.522Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) draw.io/24.2.5 Chrome/120.0.6099.109 Electron/28.1.0 Safari/537.36" etag="xwfoLQZdfcsZVc0k3KCE" version="24.2.5" type="device">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1434" dy="844" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="kj_kteSTt3lR0eaDM2DA-2" value="&amp;nbsp;Inicio calculo de IVA" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="270" y="30" width="170" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3C2N2z-UqlfMtFcXgH52-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kj_kteSTt3lR0eaDM2DA-7" target="kj_kteSTt3lR0eaDM2DA-10" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="kj_kteSTt3lR0eaDM2DA-7" value="precio_con_iva = precio * 1.21" style="rounded=1;whiteSpace=wrap;html=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="220" y="270" width="280" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="kj_kteSTt3lR0eaDM2DA-10" value="precio_con_iva" style="shape=document;whiteSpace=wrap;html=1;boundedLbl=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="300" y="420" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="kj_kteSTt3lR0eaDM2DA-12" value="Fin calculo de IVA" style="strokeWidth=2;html=1;shape=mxgraph.flowchart.terminator;whiteSpace=wrap;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="290" y="580" width="130" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3C2N2z-UqlfMtFcXgH52-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.532;entryY=0.045;entryDx=0;entryDy=0;entryPerimeter=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kj_kteSTt3lR0eaDM2DA-10" target="kj_kteSTt3lR0eaDM2DA-12" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3C2N2z-UqlfMtFcXgH52-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" parent="WIyWlLk6GJQsqaUBKTNV-1" source="3C2N2z-UqlfMtFcXgH52-12" target="kj_kteSTt3lR0eaDM2DA-7" edge="1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="3C2N2z-UqlfMtFcXgH52-12" value="precio" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="WIyWlLk6GJQsqaUBKTNV-1" vertex="1">
+          <mxGeometry x="251" y="150" width="220" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="8IFGhLv0g7fEWbhql9pz-0" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.473;entryY=-0.017;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="kj_kteSTt3lR0eaDM2DA-2" target="3C2N2z-UqlfMtFcXgH52-12">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
