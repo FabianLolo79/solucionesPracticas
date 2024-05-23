@@ -1,0 +1,2 @@
+# solucionesPracticas
+Ejercitacion propuesta ISPC
