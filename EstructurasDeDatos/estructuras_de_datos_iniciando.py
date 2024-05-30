@@ -28,10 +28,14 @@ guardarlos en una lista y mostrarlos.
 # print("")
 # print("Ejercicio 1")
 # print("")
+
+# Definición de lista vacía
 # lista_nombres = []
 
+# Pido al usuario que ingrese el nombre
 # nombre = input("Ingrese un nombre: ")
 
+# Condición para dejar de cargar datos
 # while len(lista_nombres) < 10:
         
 #         if nombre not in lista_nombres:
@@ -74,24 +78,35 @@ Eliminar la tercer y la última persona de la lista del ejercicio 1, luego orden
 """
 Guardar en un diccionario los datos de una persona: nombre, apellido, dni, email, fecha de nacimiento.
 """
-persona = {}
+# print("Ejercicio 3")
 
-nombre = input("Ingrese el nombre: \n")
-persona["Nombre"] = nombre
+# Definición del diccionario vacío para guardar los datos
+# persona = {}
 
-apellido = input("Ingrese el apellido: \n")
-persona["Apellido"] = apellido
+# Solicito los datos al usuario
+# nombre = input("Ingrese el nombre: \n")
+# # persona["Nombre"] = nombre
 
-dni = int(input("Ingrese el dni (sin puntos): \n"))
-persona["Dni"] = dni
+# apellido = input("Ingrese el apellido: \n")
+# # persona["Apellido"] = apellido
 
-email = input("Ingrese el e-mail: \n")
-persona["E-mail"] = email
+# dni = input("Ingrese el dni (sin puntos): \n")
+# # persona["Dni"] = dni
 
-fecha_nac = input("Ingrese la fecha de nacimiento \n")
-persona["Fecha de nacimiento"] = fecha_nac
+# email = input("Ingrese el e-mail: \n")
+# # persona["E-mail"] = email
 
-print(persona)
+# fecha_nac = input("Ingrese la fecha de nacimiento DD/MM/AAAA \n")
+# # persona["Fecha de nacimiento"] = fecha_nac
+
+# persona = {
+#         "Nombre": nombre,
+#         "Apellido": apellido,
+#         "Dni": dni,
+#         "E-mail": email,
+#         "Fecha de nacimiento": fecha_nac
+#     }
+# print(persona)
 
 # Ejercicio 4
 """
@@ -99,4 +114,42 @@ En un nuevo diccionario llamado familia guardar 4 personas, cada una de ellas co
 (nombre, apellido, dni, email, fecha de nacimiento).
 """
 
+familia = {}
+
+for i in range(1,5):
+
+    print(f"Datos de la persona {i}: \n")
+    nombre = input("Ingrese el nombre: \n")
+    #familia["Nombre"] = nombre
+
+    apellido = input("Ingrese el apellido: \n")
+    #familia["Apellido"] = apellido
+
+    dni = input("Ingrese el dni (sin puntos): \n")
+    #familia["Dni"] = dni
+
+    email = input("Ingrese el e-mail: \n")
+    #familia["E-mail"] = email
+
+    fecha_nac = input("Ingrese la fecha de nacimiento (DD/MM/AAAA) \n")
+    #familia["Fecha de nacimiento"] = fecha_nac
+
+    # Crear un diccionario para almacenar los datos de cada persona
+    persona = {
+        "Nombre": nombre,
+        "Apellido": apellido,
+        "Dni": dni,
+        "E-mail": email,
+        "Fecha de nacimiento": fecha_nac
+    }
+    # print(persona[i])
+
+    # Agregar la persona al diccionario familia con una clave única
+    familia[f"persona_{i}"] = persona
+
+# Mostrar el diccionario familia
+print("\n Diccionario familia con los datos ingresados: ")
+for key, value in familia.items():
+    print(f"{key}: {value}")
+    
 
