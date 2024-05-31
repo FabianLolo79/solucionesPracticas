@@ -113,6 +113,7 @@ Guardar en un diccionario los datos de una persona: nombre, apellido, dni, email
 En un nuevo diccionario llamado familia guardar 4 personas, cada una de ellas con los mismos 5 datos 
 (nombre, apellido, dni, email, fecha de nacimiento).
 """
+print("Ejercicio 4")
 
 familia = {}
 
@@ -152,4 +153,15 @@ print("\n Diccionario familia con los datos ingresados: ")
 for key, value in familia.items():
     print(f"{key}: {value}")
     
+
+# Ejercicio 5 
+"""
+Guardar en una tupla los primeros n números pares. El valor de n que lo ingrese el usuario (input). 
+Luego mostrar los datos de la tupla.
+"""
+print("Ejercicio 5")
+
+
+
+
 
