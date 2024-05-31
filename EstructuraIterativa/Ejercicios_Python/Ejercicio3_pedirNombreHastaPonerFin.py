@@ -4,17 +4,17 @@ Pedir que el usuario ingrese (input) nombre de personas y mostrarlos hasta que e
 """
 
 # EPS
-# Entrada
-    # nombre
+# Entrada por usuario
+    # nombre_usuario string 
 
 #Proceso
-    #
+    # con una estructura repetitiva controlo la salida 
 
 #Salida
-    # 
+    # nombre
 
-palabra_usuario = input("Ingrese un nombre (fin para salir): ")
+nombre_usuario = input("Ingrese un nombre (fin para salir): ")
 
-while palabra_usuario != "fin": #????
-    print(palabra_usuario)
-    palabra_usuario = input("Ingrese un nombre (fin para salir): ")
+while nombre_usuario != "fin": #????
+    print(nombre_usuario)
+    nombre_usuario = input("Ingrese un nombre (fin para salir): ")
