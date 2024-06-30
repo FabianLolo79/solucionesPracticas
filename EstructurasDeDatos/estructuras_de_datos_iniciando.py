@@ -38,7 +38,7 @@ guardarlos en una lista y mostrarlos.
 # Condición para dejar de cargar datos
 # while len(lista_nombres) < 10:
         
-#         if nombre not in lista_nombres:
+#         if nombre not in lista_nombres: # antes de cargar comprueba que no esté en la lista
 #             lista_nombres.append(nombre)
 #         nombre = input("Ingrese un nombre: ")
 
